@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color:#F8F9F9;
+}
+h1{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 25px;
+    color: rgba(0, 0, 51,0.75)
+}
+.card{
+    margin: 30px auto;
+    font-family: 'Ubuntu', sans-serif;    
+}
+#top-div{
+    display: flex;
+}
+#top-div-right{
+    margin: 10px auto;
+}
+
+.card-img-top{
+    height: 128px;
+    width: 128px;
+}
+
+.card-title{
+    margin-bottom: 0px;
+}
+.card-text{
+    color: #545A57;   
+}
+.card-text span{
+    font-weight: 700;
+}
+#email{
+    font-weight: 100;
+}
+#city{
+    font-weight: 100;
+}
+#user-id{
+    font-size:0.95em;
+    color:#007BFF;
+}
+#new-user-btn{
+    width: 100%;
+    border-radius: 0rem 0rem 0.25rem 0.25rem;
+    margin: 0px;
+}
